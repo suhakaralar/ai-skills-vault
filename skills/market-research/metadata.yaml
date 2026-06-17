@@ -1,0 +1,24 @@
+name: market-research
+version: 0.1.0
+status: draft
+language: tr
+primary_format: SKILL.md
+supported_tools:
+  - cabinet
+  - claude-code
+  - codex
+  - cursor
+  - chatgpt
+use_cases:
+  - market sizing
+  - search intent analysis
+  - competitor research
+  - price band analysis
+  - demand validation
+  - data source verification
+risk_level: medium
+last_reviewed: 2026-06-17
+notes:
+  - Nicel veri uydurma.
+  - Arama hacmi ve satış hacmini ayrı ele al.
+  - Veri bulunamazsa belirsizliği açık yaz.
