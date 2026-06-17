@@ -1,0 +1,23 @@
+name: idea-refine
+version: 0.1.0
+status: draft
+language: tr
+primary_format: SKILL.md
+supported_tools:
+  - cabinet
+  - claude-code
+  - codex
+  - cursor
+  - chatgpt
+use_cases:
+  - business idea refinement
+  - model variation
+  - MVP design
+  - assumption checking
+  - B2B packaging
+risk_level: low
+last_reviewed: 2026-06-17
+notes:
+  - Ham fikri erken eleme.
+  - Birden fazla ticari model düşün.
+  - İlk MVP ve satış kanalını netleştir.
