@@ -8,19 +8,9 @@
 
 ## Vendored external skills
 
-`marketingskills` koleksiyonu doğrudan snapshot olarak alınacak şekilde düzenlenmiştir.
-
-Hedef klasör:
-
-```text
-vendor/marketingskills/skills/
-```
-
-Hazırlanan yardımcı dosya:
-
-```text
-scripts/vendor-marketingskills.sh
-```
+| Collection | Path | Durum |
+|---|---|---|
+| `marketingskills` | `vendor/marketingskills/skills/` | Kaynak repo birebir snapshot olarak kopyalandı |
 
 ## Standart
 
@@ -36,5 +26,5 @@ examples/
 ## Kullanım
 
 - Yerel ana skill'ler: `skills/<skill-name>/SKILL.md`
-- Vendored MarketingSkills: `vendor/marketingskills/skills/<skill-name>/SKILL.md`
+- MarketingSkills vendor kopyası: `vendor/marketingskills/skills/<skill-name>/SKILL.md`
 - Cabinet adaptörü olan yerel skill'ler: `adapters/cabinet/skill.sh`
