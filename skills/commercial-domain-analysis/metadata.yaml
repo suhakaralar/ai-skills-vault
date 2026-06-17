@@ -1,0 +1,24 @@
+name: commercial-domain-analysis
+version: 0.1.0
+status: draft
+language: tr
+primary_format: SKILL.md
+supported_tools:
+  - cabinet
+  - claude-code
+  - codex
+  - cursor
+  - chatgpt
+use_cases:
+  - domain monetization
+  - white-label SEO
+  - B2B offer design
+  - product catalog strategy
+  - affiliate and lead model evaluation
+  - operational risk analysis
+risk_level: medium
+last_reviewed: 2026-06-17
+notes:
+  - Erken sat/beklet elemesi yapma.
+  - Üretici veya marka adına çalıştırma ihtimalini mutlaka değerlendir.
+  - Veri erişimi ve operasyon yükünü ayrı bölümde yaz.
