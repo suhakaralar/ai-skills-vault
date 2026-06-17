@@ -1,0 +1,26 @@
+name: marketing-skills-router
+version: 0.1.0
+status: draft
+language: tr
+primary_format: SKILL.md
+supported_tools:
+  - cabinet
+  - claude-code
+  - codex
+  - cursor
+  - chatgpt
+source_collection:
+  name: marketingskills
+  repository: coreyhaines31/marketingskills
+  license: MIT
+use_cases:
+  - marketing task routing
+  - SEO and content workflow selection
+  - CRO and copy workflow selection
+  - paid ads and analytics workflow selection
+  - B2B sales and GTM workflow selection
+risk_level: low
+last_reviewed: 2026-06-17
+notes:
+  - Upstream skill contents are not vendored here yet.
+  - This router points to the right MarketingSkills skill and combines it with local vault skills.
