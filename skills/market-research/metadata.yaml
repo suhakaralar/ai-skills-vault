@@ -1,8 +1,12 @@
 name: market-research
 version: 0.1.0
-status: draft
+status: custom
 language: tr
 primary_format: SKILL.md
+origin:
+  type: custom
+  created_by: chatgpt
+  note: This is not a confirmed vendored/original upstream skill. It was written locally for Süha Karalar's workflow.
 supported_tools:
   - cabinet
   - claude-code
@@ -19,6 +23,5 @@ use_cases:
 risk_level: medium
 last_reviewed: 2026-06-17
 notes:
-  - Nicel veri uydurma.
-  - Arama hacmi ve satış hacmini ayrı ele al.
-  - Veri bulunamazsa belirsizliği açık yaz.
+  - This file should not be represented as an original third-party skill.
+  - If a preferred upstream market-research skill is selected, vendor it separately and keep this as a custom adaptation only.
