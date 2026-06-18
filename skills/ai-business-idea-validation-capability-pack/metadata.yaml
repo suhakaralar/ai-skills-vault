@@ -1,0 +1,30 @@
+name: ai-business-idea-validation-capability-pack
+version: 1.0.0
+status: vendored
+language: en
+primary_format: SKILL.md
+origin:
+  type: uploaded_original
+  uploaded_file: SKILL(3).md
+  source_notes:
+    - Knowledge freshness pinned to 2026-04-11.
+    - Retrieval sources include YC Library, Lenny's Newsletter, and Indie Hackers.
+supported_tools:
+  - cabinet
+  - claude-code
+  - codex
+  - cursor
+  - chatgpt
+  - gemini
+use_cases:
+  - AI product idea validation
+  - business validation
+  - demand validation
+  - pricing readiness
+  - launch feasibility
+  - go-no-go decision memo
+risk_level: medium
+last_reviewed: 2026-06-18
+notes:
+  - Added from uploaded original SKILL file.
+  - Use together with market-research and idea-refine when validating commercial ideas.
