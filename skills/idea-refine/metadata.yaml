@@ -1,8 +1,13 @@
 name: idea-refine
-version: 0.1.0
-status: draft
-language: tr
+version: 1.0.0
+status: vendored
+language: en
 primary_format: SKILL.md
+source:
+  repository: addyosmani/agent-skills
+  path: skills/idea-refine
+  source_commit_known_file_sha: 30b1c80c3aad9526cd1886913f166af8930d2ef2
+  license: MIT
 supported_tools:
   - cabinet
   - claude-code
@@ -10,14 +15,15 @@ supported_tools:
   - cursor
   - chatgpt
 use_cases:
-  - business idea refinement
-  - model variation
-  - MVP design
-  - assumption checking
-  - B2B packaging
+  - idea refinement
+  - divergent thinking
+  - convergent evaluation
+  - assumption testing
+  - MVP scoping
+  - markdown one-pager
 risk_level: low
 last_reviewed: 2026-06-17
 notes:
-  - Ham fikri erken eleme.
-  - Birden fazla ticari model düşün.
-  - İlk MVP ve satış kanalını netleştir.
+  - This skill was replaced with Addy Osmani's original idea-refine skill.
+  - The previous local simplified Turkish version is no longer the canonical idea-refine skill.
+  - Commercial/domain-specific analysis should use commercial-domain-analysis together with this skill when needed.
