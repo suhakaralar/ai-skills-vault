@@ -1,82 +1,75 @@
 ---
 name: market-research
-description: Evidence-based market, competitor, search intent, pricing, demand and data-source research for commercial decisions.
-version: 0.1.0
-language: tr
+description: Conduct market research, competitive analysis, investor due diligence, and industry intelligence with source attribution and decision-oriented summaries. Use when the user wants market sizing, competitor comparisons, fund research, technology scans, or research that informs business decisions.
+origin: ECC
 ---
 
-# Market Research Expert
+# Market Research
 
-## Amaç
+Produce research that supports decisions, not research theater.
 
-Bu skill, ticari kararlar için pazar araştırması yapar. Amaç uzun ve süslü rapor üretmek değil; karar vermeye yarayan kaynaklı, gerçekçi ve uygulanabilir pazar resmi çıkarmaktır.
+## When to Activate
 
-## Temel kurallar
+- researching a market, category, company, investor, or technology trend
+- building TAM/SAM/SOM estimates
+- comparing competitors or adjacent products
+- preparing investor dossiers before outreach
+- pressure-testing a thesis before building, funding, or entering a market
 
-- Güncel veya nicel bilgi gerekiyorsa araştırma yapmadan kesin sayı verme.
-- Arama hacmi, satış hacmi, fiyat bandı, pazar büyüklüğü, rakip listesi ve mevzuat gibi değişebilir bilgilerde kaynak kullan.
-- Veri bulunamadıysa bunu açıkça `[BELİRSİZ]` olarak yaz.
-- Uydurma pazar büyüklüğü, uydurma arama hacmi, uydurma satış adedi verme.
-- Sadece genel kanaat değil, karar üreten bulgu yaz.
+## Research Standards
 
-## Araştırma alanları
+1. Every important claim needs a source.
+2. Prefer recent data and call out stale data.
+3. Include contrarian evidence and downside cases.
+4. Translate findings into a decision, not just a summary.
+5. Separate fact, inference, and recommendation clearly.
 
-Her araştırmada uygun olan başlıkları kontrol et:
+## Common Research Modes
 
-1. Pazar büyüklüğü ve kategori talebi
-2. Arama niyeti ve anahtar kelime kümeleri
-3. Rakipler ve SERP yapısı
-4. Ürün/fiyat bandı
-5. Satış kanalları
-6. Veri erişimi ve veri lisansı
-7. Tedarikçi / üretici / bayi yapısı
-8. B2B ve B2C ayrımı
-9. Mevzuat / reklam / sorumluluk riski
-10. İlk MVP fırsatı
+### Investor / Fund Diligence
+Collect:
+- fund size, stage, and typical check size
+- relevant portfolio companies
+- public thesis and recent activity
+- reasons the fund is or is not a fit
+- any obvious red flags or mismatches
 
-## Çıktı formatı
+### Competitive Analysis
+Collect:
+- product reality, not marketing copy
+- funding and investor history if public
+- traction metrics if public
+- distribution and pricing clues
+- strengths, weaknesses, and positioning gaps
 
-### 1. Araştırma özeti
+### Market Sizing
+Use:
+- top-down estimates from reports or public datasets
+- bottom-up sanity checks from realistic customer acquisition assumptions
+- explicit assumptions for every leap in logic
 
-- En önemli 3 bulgu
-- En önemli 3 belirsizlik
-- Karara etkisi
+### Technology / Vendor Research
+Collect:
+- how it works
+- trade-offs and adoption signals
+- integration complexity
+- lock-in, security, compliance, and operational risk
 
-### 2. Talep ve niyet analizi
+## Output Format
 
-| Arama / talep kümesi | Niyet | Ticari değer | Not |
-|---|---|---:|---|
+Default structure:
+1. executive summary
+2. key findings
+3. implications
+4. risks and caveats
+5. recommendation
+6. sources
 
-### 3. Rakip ve kanal analizi
+## Quality Gate
 
-| Rakip / kanal | Güçlü yanı | Zayıf yanı | Fırsat |
-|---|---|---|---|
-
-### 4. Fiyat ve ürün yapısı
-
-- Fiyat bandı
-- Alt segmentler
-- Yüksek bilet fırsatları
-- Sezon etkisi
-- B2B/B2C farkı
-
-### 5. Veri kaynakları
-
-| Veri | Kaynak | Güven | Sürdürülebilirlik |
-|---|---|---:|---:|
-
-### 6. Karar
-
-- Başla / test et / beklet / ele
-- Hangi modelle başlanmalı
-- Hangi veri gelmeden kesin karar verilmemeli
-
-## Kalite kontrol
-
-Cevabı göndermeden önce şunları kontrol et:
-
-- Sayı verdiysem kaynak var mı?
-- Bulamadığım şeyi bulmuş gibi mi yazdım?
-- SEO hacmiyle satış hacmini karıştırdım mı?
-- B2B satın alma döngüsünü fazla basitleştirdim mi?
-- Veri erişimi olmadan veri tabanlı ürün önermiş miyim?
+Before delivering:
+- all numbers are sourced or labeled as estimates
+- old data is flagged
+- the recommendation follows from the evidence
+- risks and counterarguments are included
+- the output makes a decision easier
