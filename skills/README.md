@@ -2,15 +2,16 @@
 
 | Skill | Status | Amaç |
 |---|---|---|
-| `commercial-domain-analysis` | draft | Domain, white-label SEO, ürün kataloğu, B2B satış paketi ve risk analizi |
-| `market-research` | draft | Pazar, rakip, arama niyeti, fiyat, talep ve veri kaynağı araştırması |
-| `idea-refine` | draft | Ham iş fikrini varyasyonlara ayırma, MVP ve ticari karar üretme |
+| `ai-business-idea-validation-capability-pack` | vendored | AI ürün/fikir doğrulama, talep, fiyatlandırma, lansman fizibilitesi ve go/no-go kararı |
+| `idea-refine` | vendored | Addy Osmani kaynaklı fikir netleştirme, divergent/convergent düşünme, varsayım testi ve one-pager üretimi |
+| `market-research` | vendored | ECC origin pazar araştırması, rekabet analizi, yatırımcı/fon araştırması ve karar odaklı kaynaklı özet |
+| `commercial-domain-analysis` | custom | Domain, white-label SEO, ürün kataloğu, B2B satış paketi ve operasyon/risk analizi |
 
 ## Vendored external skills
 
 | Collection | Path | Durum |
 |---|---|---|
-| `marketingskills` | `vendor/marketingskills/skills/` | Kaynak repo birebir snapshot olarak kopyalandı |
+| `marketingskills` | `vendor/marketingskills/skills/` | Corey Haines MarketingSkills kaynak repo birebir snapshot olarak kopyalandı |
 
 ## Standart
 
