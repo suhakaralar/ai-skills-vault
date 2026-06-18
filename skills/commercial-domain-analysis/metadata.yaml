@@ -1,8 +1,12 @@
 name: commercial-domain-analysis
 version: 0.1.0
-status: draft
+status: custom
 language: tr
 primary_format: SKILL.md
+origin:
+  type: custom
+  created_by: chatgpt
+  note: This is not a vendored/original upstream skill. It was written locally for Süha Karalar's workflow.
 supported_tools:
   - cabinet
   - claude-code
@@ -19,6 +23,5 @@ use_cases:
 risk_level: medium
 last_reviewed: 2026-06-17
 notes:
-  - Erken sat/beklet elemesi yapma.
-  - Üretici veya marka adına çalıştırma ihtimalini mutlaka değerlendir.
-  - Veri erişimi ve operasyon yükünü ayrı bölümde yaz.
+  - This file should not be represented as an original third-party skill.
+  - If an upstream original is found later, vendor it separately and keep this as a custom adaptation only.
